@@ -1,5 +1,5 @@
 /* ---------General Styles------- */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600,800&display=swap");
 /* https://fonts.google.com/specimen/Poppins?query=poppins */
 * {
   margin: 0;
@@ -8,7 +8,8 @@
 }
 html {
   scroll-behavior: smooth;
-  background-color: lavender;
+  background-color:lavender;
+  
 }
 
 p {
@@ -56,8 +57,9 @@ a {
 }
 .nav-logo {
   font-size: 2rem;
-  border: black 0.2rem solid;
+  /* border: black 0.2rem solid; */
   padding: 0.3rem;
+  font-weight: 600;
 }
 nav a {
   color: black;
@@ -73,7 +75,7 @@ nav a:hover {
 
 /* PROFILE SECTION */
 #profile {
-  border: black 0.1rem solid;
+  /* border: black 0.1rem solid; */
   border-radius: 2rem;
   height: 100%;
   display: flex;
@@ -83,13 +85,13 @@ nav a:hover {
   padding: 9rem 0;
 }
 .profile-text-1 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .profile-text-2 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 .profile-title {
-  font-size: 3rem;
+  font-size: 3.3rem;
 }
 
 .profile-btn-socials {
@@ -146,7 +148,7 @@ nav a:hover {
   height: 30vh;
   background: white;
   border-radius: 2rem;
-  border: black 0.1rem solid;
+  /* border: black 0.1rem solid; */
   text-align: center;
 }
 
@@ -165,7 +167,7 @@ nav a:hover {
 .skills-container {
   display: flex;
   flex-direction: column;
-  border: black 0.1rem solid;
+  /* border: black 0.1rem solid; */
   border-radius: 2rem;
   width: 30%;
   padding: 2rem 5rem;
