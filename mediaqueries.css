@@ -9,6 +9,9 @@
         padding-bottom:3rem;
         padding-top:1rem;
     }
+    #nav-bar a{
+        font-size:1.2rem;
+    }
     #profile{
         flex-direction:column;
         padding:3rem 1rem;
@@ -34,6 +37,10 @@
     #projects .skills-containers {
         gap: 1rem;
       }
+    .skills-container{
+        padding: 2rem 3rem;
+        width: 60%;
+    }
     #projects .btn-container{
         flex-direction:column;
         align-items:center;
@@ -46,6 +53,12 @@
         align-items:flex-start;
         gap:0.7rem;
         padding: 1.3rem 2rem;
+    }
+    #footer a{
+        font-size:1.2rem;
+    }
+    #footer p{
+        font-size:0.8rem;
     }
 }
 @media screen and (max-width:1200px){
