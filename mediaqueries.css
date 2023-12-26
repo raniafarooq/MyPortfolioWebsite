@@ -1,4 +1,7 @@
 @media screen and (max-width:850px){
+    .container{
+        width:100%;
+    }
     #nav-bar{
         display:flex;
         flex-direction:column;
@@ -6,19 +9,13 @@
         padding-bottom:3rem;
         padding-top:1rem;
     }
-}
-@media screen and (max-width:850px){
-    .container{
-        width:fit-content;
-    }
     #profile{
         flex-direction:column;
-        padding:3rem 0;
+        padding:3rem 1rem;
         width:80%;
         gap:2rem;
         margin:0 auto;
     }
-    
     .about-containers{
         flex-direction:column;
         align-items:center;
@@ -26,7 +23,33 @@
     }
     .about-text{
         width:70%;
-        text-align:center;
+        text-align:justify;
         margin:0 auto;
     }
+    .skills-containers{
+        flex-direction:column;
+        align-items:center;
+        gap:1rem;
+    }
+    #projects .skills-containers {
+        gap: 1rem;
+      }
+    #projects .btn-container{
+        flex-direction:column;
+        align-items:center;
+        gap:1rem;
+    }
+    .contact-containers{
+        padding:0.5rem 1rem;
+        font-size:0.7rem;
+        flex-direction:column;
+        align-items:flex-start;
+        gap:0.7rem;
+        padding: 1.3rem 2rem;
+    }
+}
+@media screen and (max-width:1200px){
+    #projects .skills-containers {
+        flex-direction: column;
+      }
 }

@@ -160,6 +160,7 @@ nav a:hover {
 .skills-containers {
   display: flex;
   justify-content: space-between;
+  gap: 4rem;
 }
 .skills-container {
   display: flex;
@@ -191,7 +192,8 @@ nav a:hover {
 #projects .skills-containers {
   display: flex;
   flex-wrap: wrap;
-  gap: 4rem;
+  justify-content: space-between;
+  align-items: center;
 }
 /* Contact */
 #contact{
@@ -210,8 +212,10 @@ nav a:hover {
   border-radius: 2rem;
   justify-content: space-around;
   align-items: center;
-  width:50%;
+  width:fit-content;
+  padding: 0.5rem 2rem;
   height: 5rem;
+  gap: 1rem;
 }
 .contact-container{
   display: flex;
