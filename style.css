@@ -45,6 +45,7 @@ a {
   justify-content: space-between;
   align-items: center;
   height: 17vh;
+  padding-bottom:4rem ;
 }
 .nav-links {
   display: flex;
@@ -74,11 +75,12 @@ nav a:hover {
 #profile {
   border: black 0.1rem solid;
   border-radius: 2rem;
-  height: 70vh;
+  height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: white;
+  padding: 9rem 0;
 }
 .profile-text-1 {
   font-size: 1.2rem;

@@ -1,0 +1,32 @@
+@media screen and (max-width:850px){
+    #nav-bar{
+        display:flex;
+        flex-direction:column;
+        /* Screen size lower than 700px, flex set to col */
+        padding-bottom:3rem;
+        padding-top:1rem;
+    }
+}
+@media screen and (max-width:850px){
+    .container{
+        width:fit-content;
+    }
+    #profile{
+        flex-direction:column;
+        padding:3rem 0;
+        width:80%;
+        gap:2rem;
+        margin:0 auto;
+    }
+    
+    .about-containers{
+        flex-direction:column;
+        align-items:center;
+        gap:2rem;
+    }
+    .about-text{
+        width:70%;
+        text-align:center;
+        margin:0 auto;
+    }
+}
